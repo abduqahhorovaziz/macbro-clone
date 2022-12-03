@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      boxShadow:{
+        'button-shadow': ['0 0 1px 1px #06c']
+      }
+    },
   },
   plugins: [],
   corePlugins: {
