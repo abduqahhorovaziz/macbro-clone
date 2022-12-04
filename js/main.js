@@ -41,3 +41,8 @@ closeMenu.onclick = () => {
   openMenu.classList.remove("hidden");
   closeMenu.classList.add("hidden");
 };
+
+function clickImg(smallImg){
+  let fullImg = document.getElementById("imageBox");
+  fullImg.src = smallImg.src
+}
