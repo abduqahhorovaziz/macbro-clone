@@ -1,11 +1,11 @@
-.container{
+.container-custom{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.container-lg{
+.container-custom-lg{
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;

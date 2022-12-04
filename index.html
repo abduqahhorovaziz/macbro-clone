@@ -15,12 +15,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
 
   <header class="w-full bg-[#1d1d1d] text-white py-[10px]">
-    <div class="container-lg font-inter">
+    <div class="container-custom-lg font-inter">
       <nav class="flex items-center">
         <div class="mr-5">
           <h1 class="text-[20px] leading-[26px]">Mac<span class="font-semibold">Bro</span></h1>
@@ -125,7 +127,7 @@
                     <path fill="#d52b1e" d="M0 341.3h512V512H0z" />
                   </g>
                 </svg>
-                
+
               </div>
             </a>
           </li>
@@ -138,7 +140,7 @@
   </header>
 
   <section>
-    <div class="container flex justify-between font-inter">
+    <div class="container-custom flex justify-between font-inter">
       <div class="max-w-[50%] pt-[50px] relative">
         <div class="sticky top-10">
           <div class="h-[500px] overflow-hidden flex items-start justify-center">
@@ -174,7 +176,8 @@
             <a href="#" class="text-2xl text-[#0066cc]">
               <i class="fa-solid fa-share-from-square"></i>
             </a>
-            <button class="mt-3 text-xl w-10 h-10 text-gray-700 rounded-full bg-gray-900/10 flex items-center justify-center">
+            <button
+              class="mt-3 text-xl w-10 h-10 text-gray-700 rounded-full bg-gray-900/10 flex items-center justify-center">
               <i class="fa-solid fa-heart"></i>
             </button>
           </div>
@@ -182,19 +185,23 @@
         <div>
           <h3 class="text-[16px] leading-[1.5] font-bold mt-[30px] mb-[10px]">Цвета</h3>
           <div class="flex flex-wrap gap-[16px]">
-            <button class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               <span class="w-[24px] h-[24px] bg-[#FFD877] rounded-full mb-[10px]"></span>
               Золотой
             </button>
-            <button class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               <span class="w-[24px] h-[24px] bg-[#DDE6E8] rounded-full mb-[10px]"></span>
               Серебро
             </button>
-            <button class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               <span class="w-[24px] h-[24px] bg-[#000000] rounded-full mb-[10px]"></span>
               черный
             </button>
-            <button class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[280px] h-[70px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[12px] uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               <span class="w-[24px] h-[24px] bg-[#8E438F] rounded-full mb-[10px]"></span>
               фиолетовый
             </button>
@@ -203,16 +210,20 @@
         <div>
           <h3 class="text-[16px] leading-[1.5] font-bold mt-[30px] mb-[10px]">Емкость</h3>
           <div class="flex flex-wrap gap-[16px]">
-            <button class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               128GB
             </button>
-            <button class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               256GB
             </button>
-            <button class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               512GB
             </button>
-            <button class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               1TB
             </button>
           </div>
@@ -220,10 +231,12 @@
         <div>
           <h3 class="text-[16px] leading-[1.5] font-bold mt-[30px] mb-[10px]">SIM</h3>
           <div class="flex flex-wrap gap-[16px]">
-            <button class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               ESIM
             </button>
-            <button class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
+            <button
+              class="w-[181px] h-[55px] rounded-md bg-white border border-[#888] flex flex-col items-center justify-center text-[17px] font-semibold uppercase focus:shadow-button-shadow focus:border-transparent duration-200 ease-in cursor-pointer">
               SIM
             </button>
           </div>
@@ -241,14 +254,20 @@
         </div>
         <div class="mt-[30px] w-full">
           <div class="w-full flex items-center justify-between">
-            <button class="w-[288px] h-[48px] rounded-md border border-[#2567c5] text-[#2567c5]" type="button">Добавить в корзину</button>
-            <button class="w-[288px] h-[48px] rounded-md border border-[#2567c5] text-white bg-[#2567c5]" type="button">Купить в один клик</button>
+            <button class="w-[288px] h-[48px] rounded-md border border-[#2567c5] text-[#2567c5]" type="button">Добавить
+              в корзину</button>
+            <button class="w-[288px] h-[48px] rounded-md border border-[#2567c5] text-white bg-[#2567c5]"
+              type="button">Купить в один клик</button>
           </div>
           <div class="w-full">
-            <button class="w-full h-[48px] text-[#06c] hover:bg-[#e9f0f9] duration-200 ease-in rounded-md mt-[10px]">Купить в рассрочку</button>
+            <button
+              class="w-full h-[48px] text-[#06c] hover:bg-[#e9f0f9] duration-200 ease-in rounded-md mt-[10px]">Купить в
+              рассрочку</button>
           </div>
           <div class="w-full">
-            <button class="w-full h-[48px] text-[#06c] hover:bg-[#e9f0f9] duration-200 ease-in rounded-md mt-[10px]">Купить в рассрочку от MacBro</button>
+            <button
+              class="w-full h-[48px] text-[#06c] hover:bg-[#e9f0f9] duration-200 ease-in rounded-md mt-[10px]">Купить в
+              рассрочку от MacBro</button>
           </div>
           <div class="w-full">
             <button class="w-full h-[48px] text-[#06c] bg-[#f5f5f7] rounded-md mt-[10px]">Сравнить</button>
@@ -258,8 +277,282 @@
     </div>
   </section>
 
-  <section class="h-screen"> 
+
+  <section class="font-inter pb-[30px]">
+    <div class="container-custom">
+      <div class="mb-4 border-b border-gray-200 dark:border-gray-700 mt-[80px]">
+        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent"
+          role="tablist">
+          <li class="mr-2" role="presentation">
+            <button class="inline-block p-4 rounded-t-lg border-b-2" id="profile-tab" data-tabs-target="#profile"
+              type="button" role="tab" aria-controls="profile" aria-selected="false">Обзор</button>
+          </li>
+          <li class="mr-2" role="presentation">
+            <button
+              class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard"
+              aria-selected="false">Характеристики</button>
+          </li>
+          <li class="mr-2" role="presentation">
+            <button
+              class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings"
+              aria-selected="false">Описание</button>
+          </li>
+        </ul>
+      </div>
+      <div id="myTabContent text-[#1d1d1f]">
+        <div class="hidden rounded-lg pt-10" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <p class="text-[16px] leading-6">Топовое визуальное обновление – небольшой вырез вместо «челки». Сенсоры
+            расположены под дисплеем iPhone, фон вокруг трансформируется по сценарию: подключение AirPods, уведомление о
+            входящем звонке и многое другое. Концепт называется «Dynamic Island» – «динамический остров». <br>
+            Новый дисплей стал лучшим в истории iPhone. Яркость выросла до 1600 нит, а в HDR режиме – до 2000 нит.
+            Частота обновления экрана в ночном режиме сводится до 1 секунды. <br>
+            В iPhone 14 Pro Max установлена лучшая камера среди всех iPhone. Три модуля: ультраширокоугольный 12 Мп;
+            основной с разрешением 48 Мп (такого раньше не было); трехкратный оптический зум 12 Мп. Установлен режим
+            экшн-камеры, что дает повышенную стабилизацию при движении. Кинематографический режим позволяет снимать в
+            формате 4K 24 кадров в секунду.</p>
+        </div>
+        <div class="hidden pt-10 rounded-lg" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+          <p class="text-[16px] leading-6">
+            Экран 6.7" (2796x1290) OLED 120 Гц <br>
+            Оперативная память 6 ГБ <br>
+            Встроенная память 128 ГБ <br>
+            3 камеры 48 МП, 12 МП, 12 МП <br>
+            Процессор <br>
+            Apple A16 Bionic <br>
+            Операционная система iOS 16 <br>
+            Беспроводные интерфейсы NFC, Bluetooth, Wi-Fi <br>
+            Стандарт связи 4G LTE, 5G <br>
+            Степень защиты IP68 <br>
+            Вес 240 г</p>
+        </div>
+        <div class="hidden pt-10 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+          <p class="text-[16px] leading-6">
+            Ищете, где выгодно купить новый Apple iPhone 14 Pro Max в Узбекистане? Интернет-магазин MacBro — лучший
+            выбор для решения такой задачи. Мы уже несколько лет представляем продукцию от известного американского
+            производителя, что позволило создать оптимальные условия продажи. Гарантированное качество, быстрая
+            доставка, разные способы оплаты, рассрочка — все это дополняют доступные для покупателей в Ташкенте цены на
+            Айфоны 14 Про Макс всех модификаций (цвет, емкость) и акции, позволяющие экономить.
+
+            Новый iPhone 14 Pro Max — последняя модель популярного смартфона от Apple, представленная в
+            интернет-магазине MacBro. Высокий спрос на новинку обусловлен безупречными характеристиками, с которыми вы
+            можете ознакомиться в соответствующей вкладке на этой же странице. Здесь же отмечены преимущества нашей
+            продажи нового Айфона Про Макс 14 и даны ответы на часто задаваемые вопросы покупателей. <br>
+            <span class="text-[24px] font-bold">Где купить Apple iPhone 14 Pro Max в Узбекистане: возможности
+              покупателей на MacBro.Uz</span> <br>
+            Наша компания уже несколько лет представляет лучшую продукцию Apple в Ташкенте. Это позволило создать
+            оптимальные условия продажи. Одно из них — это наличие всех представленных производителем модификаций. В
+            нашем каталоге можно выбрать iPhone 14 Pro Max по цвету (золотой, серебро, черный, фиолетовый) и емкости
+            (128, 256, 512 GB или 1 TB). Полная представленность линейки новых смартфонов — не единственный плюс нашей
+            продажи. Выбирая MacBro, чтобы купить Apple iPhone 14 Pro Max в Ташкенте, покупатели также открывают для
+            себя следующие возможности:
+          </p>
+          <ul class="text-[16px] leading-6">
+            <li class="list-disc">
+              <span class="font-bold">Гарантированное качество от производителя.</span> Мы поставляем всю продукцию
+              Apple напрямую, что защищает клиентов от некачественных и незаконных подделок.
+            </li>
+            <li class="list-disc">
+              <span class="font-bold">Оптимальная для Узбекистана стоимость iPhone 14 Pro Max.</span> Поставки без
+              посредников обеспечивают не только качество, но и доступную цену популярного смартфона.
+            </li>
+            <li class="list-disc">
+              <span class="font-bold">Доставка заказов по всей территории Узбекистана.</span> Мы доставляем новые Айфон
+              Про Макс и другую продукцию из каталога в оптимальные сроки по выгодным расценкам.
+            </li>
+            <li class="list-disc">
+              <span class="font-bold">Гарантийное обслуживание Apple iPhone 14 Pro Max в сервис-центре
+                BroService.</span> Мы даем гарантию сроком до года, чего не предложат большинство других продавцов.
+            </li>
+            <li class="list-disc">
+              <span class="font-bold">Услуга Тrade In.</span> Суть предложения — обмен старого телефона на новую модель,
+              включая iPhone 14 Pro Max (актуально только для смартфонов Apple и Samsung).
+            </li>
+          </ul>
+          <p>К плюсам нашей продажи также относятся услуги квалифицированных консультантов. Специалисты предоставят
+            подробные ответы на ваши вопросы. При необходимости они помогут с выбором смартфона и оформлением вашего
+            заказа.</p>
+          <h2 class="text-[24px] font-bold">FAQ по продаже iPhone 14 Pro Max в интернет-магазине MacBro.Uz</h2>
+          <p>Прежде, чем вы обратитесь в службу поддержки нашей компании, рекомендуем ознакомиться с ответами на часто
+            задаваемые вопросы покупателей. Возможно, здесь вы найдете интересующую информацию.</p>
+          <ul class="text-[16px] leading-6">
+            <li class="list-disc">
+              <span class="font-bold">Почему на iPhone 14 Pro Max могут быть разные цены?</span> — Разница в стоимости
+              вызвана выбранными вами параметрами. На цену влияет емкость.
+            </li>
+            <li class="list-disc">
+              <span class="font-bold">Как долго вы доставляете заказы?</span> — Ускоренная доставка Айфона 14 Про Макс
+              по Ташкенту занимает не более двух рабочих часов с момента подтверждения заказа. Сроки доставки в другие
+              населенные пункты зависят от расстояния и загруженности логистического отдела (до 72 рабочих часов).
+            </li>
+            <li class="list-disc">
+              <span class="font-bold">Где узнать точную стоимость вашей доставки?</span> — Цена услуги зависит от вида
+              товара и общей стоимости заказа. Детальную информацию вы найдете на соответствующей странице нашего сайта.
+              Там же указаны условия срочной доставки, которая актуальна для покупателей нового iPhone 14 Pro Max в
+              Ташкенте.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <section>
+    <div class="container-custom font-inter">
+      <h2 class="text-center text-[28px] leading-[1.5] font-bold py-[10px] mb-[10px]">Похожие продукты</h2>
+
+      <div class="swiper mySwiper w-full h-[405px] relative">
+        <div class="absolute w-full h-full ">
+          <div class="slideNextBtn z-30 absolute top-[45%] right-0 w-12 h-12 hover:text-[#636363] bg-[#ececec] flex items-center justify-center text-[#8a8a8a] rounded-full"><i class="fa-solid fa-chevron-right"></i></div>
+          <div class="slidePrevBtn z-30 absolute top-[45%] left-0 w-12 h-12 hover:text-[#636363] bg-[#ececec] flex items-center justify-center text-[#8a8a8a] rounded-full"><i class="fa-solid fa-chevron-left"></i></div>
+        </div>
+        <div class="swiper-wrapper py-[38px]">
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-1.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 12 Pro</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">11 507 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-1.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 12 Pro Max</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">11 977 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-2.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 12</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">7 632 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-3.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 11 Pro Max</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">9 863 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-4.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 11 Pro</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">8 689 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-5.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 11</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">6 223 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-6.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone 12 mini</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">11 507 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-7.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone XR</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">5 636 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-8.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone SE (New generation)</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">4 462 500 сум</p>
+            </a>            
+          </div>
+          <div class="swiper-slide w-[380px] h-full group">
+            <a href="#">
+              <div class="h-[250px] flex items-center justify-center">
+                <img class="h-full object-contain" src="./assets/img/products/slide-9.webp" alt="iphone">
+              </div>
+              <h4 class="text-center text-[17px] font-medium leading-[25px] group-hover:text-[#06c] duration-150 ease-in">iPhone XS</h4>
+              <p class="text-center mt-[8px] text-[17px] leading-[26px] text-[#333]">6 832 500 сум</p>
+            </a>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-[#d6d6d6] pt-[50px] pb-[20px] bg-[#f5f5f7] font-inter">
+    <div class="container-custom flex items-start justify-between">
+      <div>
+        <p class="text-[14px] font-semibold leading-[18px]">Покупай</p>
+        <ul class="text-[14px] leading-[18px] text-[#515154]">
+          <li class="my-[10px] hover:text-black"><a href="#">Mac</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">iPad</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">iPhone</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-[14px] font-semibold leading-[18px]">Компания</p>
+        <ul class="text-[14px] leading-[18px] text-[#515154]">
+          <li class="my-[10px] hover:text-black"><a href="#">Новости</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">О компании</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">Адреса магазинов</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">Для бизнеса</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-[14px] font-semibold leading-[18px]">Информация</p>
+        <ul class="text-[14px] leading-[18px] text-[#515154]">
+          <li class="my-[10px] hover:text-black"><a href="#">Мы продаем для вас</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">Доставка</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">Предложить идею</a></li>
+          <li class="my-[10px] hover:text-black"><a href="#">о eSIM</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-[14px] font-semibold leading-[18px]">Связаться с нами</p>
+        <ul class="flex items-center gap-x-[7px] my-[10px] text-[20px] leading-[26px] text-[#515154]">
+          <li class="hover:text-black"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+          <li class="hover:text-black"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="hover:text-black"><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+          <li class="hover:text-black"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          <li class="hover:text-black"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+        <p class="text-[14px] text-[#515154]">+998 78 777 20 20</p>
+      </div>
+    </div>
+    <div class="container-custom flex items-center justify-between text-[14px] text-[#515154] mt-[30px]">
+      <p>Интернет-магазины MacBro.uz. Все права защищены.</p>
+      <p>Developed by <a href="#" class="text-[#06c] hover:text-black">Udevs</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+  <script src="./js/main.js"></script>
+
 </body>
 
 </html>
